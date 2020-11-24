@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "ng-refresher"
+  "defaultProject": "ng-refresher",
+  "cli": {
+    "analytics": false
+  }
 }

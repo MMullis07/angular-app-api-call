@@ -1,3 +1,8 @@
+label,
+input,
+button {
+  display: block;
+}
 body {
   display: flex;
   justify-content: center;

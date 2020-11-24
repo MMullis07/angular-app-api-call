@@ -1,0 +1,11 @@
+<!-- ngIf will show something if it is true or hide if it is false -->
+<p *ngIf="isFetching">Loading people from a galaxy far far away...</p>
+<ul *ngIf="!isFetching">
+  <!-- Directive a set of instructions to display something-->
+  <!-- sets up a For Loop in HTML code -->
+  <!-- Will create a li for every name in the list -->
+  <!-- String interpolation: Use where we want to output dynamic text -->
+  <li *ngFor="let person of personList" (click)="onRemovePerson(person)">
+    {{ person }}
+  </li>
+</ul>

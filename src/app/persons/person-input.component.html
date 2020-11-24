@@ -1,0 +1,7 @@
+<label for="name">Name</label>
+<!-- assigned persone name element -->
+<!-- Will listen to changes of the value and pass in those changes -->
+<!-- Two Way Binding: allows us to get and write current value. Intereacts in both directions -->
+<input type="text" id="name" [(ngModel)]="enteredPersonName" />
+<!-- Event binding: Bind native events or our own -->
+<button (click)="onCreatePerson()">Create</button>
